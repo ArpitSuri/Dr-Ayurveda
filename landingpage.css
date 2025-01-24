@@ -1,0 +1,462 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #fffdd0;
+}
+
+.main_content{
+    background-color: #fffdd0;
+    width: 100%;
+    height: 400vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main_heading{
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main_heading span{
+    position: absolute;
+    left: 15%;
+    top: 100%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+header{
+    height: 5%;
+    width: 80%;
+    /* background-color: brown; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#about {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 32%;
+    height: 80%;
+    /* background-color: brown; */
+}
+
+.about .heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    position: absolute;
+    left: 35%;
+    top: 2%;
+    
+}
+.about .trio_img{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    left: 24%;
+    top: 12%;
+}
+
+.about .kapha_img , .vata_img , .pitt_img{
+    width: 20%;
+    height: 35%;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.kapha_img{
+    left: 5%;
+}
+.vata_img{
+    left: 40%;
+}
+.pitt_img{
+    left: 60%;
+}
+
+.kapha_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.kapha_description{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 40%;
+    height: 50%;
+}
+.kapha_discription_img{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+
+}
+
+.pitt_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 150%;
+    right: 10%;
+}
+
+.pitta_discription{
+    position: absolute;
+    top: 160%;
+    right: 10%;
+    width: 40%;
+    height: 50%;
+}
+.pitta_discription_img{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 140%;
+    left: 10%;
+}
+.vata_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 220%;
+    left: 5%;
+}
+.vata_discription{
+    position: absolute;
+    top: 230%;
+    left: 10%;
+    width: 40%;
+    height: 50%;
+
+}
+
+.vata_discription_img{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 220%;
+    right: 20%;
+
+}
+
+#body_type{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 270%;
+    height: 100%;
+    /* background-color: brown;
+} */}
+.body_type_heading{
+ font-size: 2.5rem;
+    font-weight: 500;
+    position: absolute;
+    left: 20%;
+    top: 2%;
+}   
+
+.body_type_of_kappa{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.body_type_of_kappa_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 22%;
+}
+.body_type_of_kappa_discription_left_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    top:32% ;
+
+}
+
+.body_type_of_kappa_discription_right_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10%;
+    width: 40%;
+    top:32% ;
+}
+.kappa_table_left{
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    width: 35%;
+    font-size: 1.25rem;
+}
+.kappa_table_right{
+    position: absolute;
+    right: 15%;
+    top: 42%;
+    width: 35%;
+    font-size: 1.25rem;
+
+}
+
+.body_type_of_vata{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+ .body_type_of_vata_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 78%;
+}
+.body_type_of_vata_discription_left_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    top: 85% ;
+}
+.body_type_of_vata_discription_right_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10%;
+    width: 40%;
+    top: 85% ;
+}
+.vata_table_left{
+    position: absolute;
+    left: 15%;
+    top: 95%;
+    width: 35%;
+    font-size: 1.25rem;
+}
+.vata_table_right{
+    position: absolute;
+    right: 15%;
+    top: 95%;
+    width: 35%;
+    font-size: 1.25rem;
+
+}
+.body_type_of_pitta{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 125%;
+    left: 5%;
+}
+.body_type_of_pitta_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 135%;
+
+}
+.body_type_of_pitta_discription_left_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    top: 145% ;
+}
+.body_type_of_pitta_discription_right_heading{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10%;
+    width: 40%;
+    top: 145% ;
+}
+.pitta_table_left{
+    position: absolute;
+    left: 15%;
+    top: 155%;
+    width: 35%;
+    font-size: 1.25rem;
+
+}
+.pitta_table_right{
+    position: absolute;
+    right: 15%;
+    top: 155%;
+    width: 35%;
+    font-size: 1.25rem;
+
+}
+
+#imbalance{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 460%;
+    height: 100%;
+     /* background-color: brown; */
+}
+.imbalance_heading{
+    font-size: 2.75rem;
+    font-weight: 500;
+    position: absolute;
+    left: 20%;
+    top: 2%; 
+}
+.imbalance_discription{
+   font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 15%;
+}
+.imbalance_of_khapa{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.imbalance_of_khapa_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 50%;
+
+}
+
+.imbalance_of_vata{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.imbalance_of_vata_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 80%;
+}
+
+.imbalance_of_pittha{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.imbalance_of_pittha_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 110%;
+
+}
+#optimisation{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 590%;
+    height: 100%;
+    /* background-color: brown; */
+
+}
+.optimisation_heading{
+    font-size: 2.75rem;
+    font-weight: 500;
+    position: absolute;
+    left: 20%;
+    top: 2%; 
+}
+
+.optimisation_of_vita{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.optimisation_of_vita_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 20%;
+}
+
+.optimisation_of_kappa{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.optimisation_of_kappa_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 50%;
+
+}
+
+.optimisation_of_pittha{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.optimisation_of_pittha_discription{
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 80%;
+
+}
